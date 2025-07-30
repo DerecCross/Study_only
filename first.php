@@ -1,4 +1,3 @@
 <?php
-echo "Hello word";
-echo "<br>";
-echo "<br>";
+$name = $_GET['name'] ?? 'гость';
+echo "Привет, $name!";
