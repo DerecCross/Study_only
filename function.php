@@ -1,6 +1,9 @@
 <?php
-function sum(int $a, float $b): float
+function familyName($name,$year):void
 {
-return $a + $b;
+    echo "$name исполнилось $year лет <br>";
 }
-echo sum(10,7.4);
+
+familyName("Victor", 10);
+familyName("Jim", 20);
+familyName("Mary", 30);
