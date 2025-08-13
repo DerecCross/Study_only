@@ -1,6 +1,13 @@
 <?php
-function sum(int $a, float $b): float
+function info($word)
 {
-return $a + $b;
+    echo "$word <br>";
 }
-echo sum(10,7.4);
+
+function math($a, $b)
+{
+    return $a+$b;
+}
+
+$res = math(1, 58);
+echo $res;
