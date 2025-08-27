@@ -5,8 +5,11 @@ require_once "blocks/header.php";
 <h1>Главная</h1>
 
 <?php
-//echo date(' d/m/y H:i:s', time() + 10000).'<br>';
-echo date('m-d H:i:s', strtotime("+10 H"));
+$lis = [10, 1, 8, 7, 100];
+unset($lis[2]);
+$lis = array_values($lis);
+rsort($lis);
+print_r($lis);
 
 require_once "blocks/footer.php";
 ?>
