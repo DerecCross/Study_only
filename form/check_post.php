@@ -17,5 +17,8 @@ else{
     echo "<h1>Все данные</h1>";
     foreach ($_POST as $key => $item) {
         echo $key.": ".$item."<br>";
+
+        header('Location: about.php');
+        exit;
     }
 }
