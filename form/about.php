@@ -12,7 +12,7 @@ require_once "blocks/header.php";
         <input type="email" id="email" name="email" placeholder="Введите email" class="form-control"><br>
         <label for="password">Пароль:</label>
         <input type="password" id="password" name="password" placeholder="Введите пароль" class="form-control"><br>
-        <label for="message">Сообщение:</label>
+         <label for="message">Сообщение:</label>
         <textarea id="message" name="message" class="form-control" placeholder="Введите сообщение"></textarea><br>
         <input type="submit" value="Отправить" class="btn btn-success">
     </form>
