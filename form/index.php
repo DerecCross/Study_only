@@ -5,10 +5,12 @@ require_once "blocks/header.php";
 <h1>Главная</h1>
 
 <?php
-$file = fopen('text.txt', 'a');
-fwrite($file,"Example text 2\ nHello");
+$message = "Сообщение";
+$to = "admin@itproger.com";
+$from = "example@itproger.com";
+$subject = "Тема сообщения";
 
-fclose($file);
+$subject = "";
 
 require_once "blocks/footer.php";
 ?>
