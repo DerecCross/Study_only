@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 $user_name = htmlspecialchars(trim($_POST['username'])); //htmlspecialchars - преобразует все html символы в строку.
 $from = htmlspecialchars(trim($_POST['email'])); //trim - встроенная функция, которая удаляет пробельные символы (и другие указанные символы) с начала и конца строки.
@@ -26,6 +27,7 @@ else if(strlen($message) <= 15){
 else {
 
 }
+
 header('Location: contact.php');
 exit;
 } else {
