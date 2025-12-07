@@ -1,0 +1,12 @@
+.fixed-btn {
+    position: fixed;      /* Фиксированное положение */
+    top: 20px;           /* Отступ от верха */
+    right: 20px;         /* Отступ справа */
+    z-index: 1000;       /* Поверх всего */
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
